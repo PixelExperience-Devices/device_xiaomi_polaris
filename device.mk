@@ -83,3 +83,7 @@ PRODUCT_COPY_FILES += \
 # Secure element
 PRODUCT_PACKAGES += \
     SecureElement
+
+# Wallpapers
+PRODUCT_PACKAGES += \
+    WallpapersBReel2018
