@@ -12,6 +12,9 @@ DEVICE_PATH := device/xiaomi/polaris
 # Assert
 TARGET_OTA_ASSERT_DEVICE := polaris
 
+# IR Camera
+TARGET_FACE_UNLOCK_CAMERA_ID := 1
+
 # Kernel
 TARGET_KERNEL_CONFIG := polaris_defconfig
 
