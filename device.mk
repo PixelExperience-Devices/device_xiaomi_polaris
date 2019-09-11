@@ -13,6 +13,10 @@ $(call inherit-product-if-exists, vendor/xiaomi/polaris/polaris-vendor.mk)
 TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080
 
+# Camera
+PRODUCT_PACKAGES += \
+    GoogleCameraMod
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
