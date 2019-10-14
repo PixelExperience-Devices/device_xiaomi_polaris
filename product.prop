@@ -3,3 +3,8 @@ persist.camera.sat.fallback.dist=45
 persist.camera.sat.fallback.dist.d=5
 persist.camera.sat.fallback.luxindex=405
 persist.camera.sat.fallback.lux.d=20
+
+# Zram
+ro.zram.mark_idle_delay_mins=60
+ro.zram.first_wb_delay_mins=180
+ro.zram.periodic_wb_delay_hours=24
