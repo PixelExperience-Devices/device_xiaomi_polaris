@@ -2,22 +2,17 @@
   {
     "repository": "device_xiaomi_sdm845-common",
     "target_path": "device/xiaomi/sdm845-common",
-    "branch": "pie-plus"
+    "branch": "ten"
   },
   {
     "repository":  "kernel_xiaomi_polaris",
-    "target_path": "kernel/xiaomi/polaris"
+    "target_path": "kernel/xiaomi/polaris",
+    "branch": "canting-4.9-q"
   },
   {
-    "repository": "packages_apps_WallpapersBReel2018",
-    "target_path": "packages/apps/WallpapersBReel2018",
-    "branch": "pie",
+    "repository": "packages_apps_PixelLiveWallpaper",
+    "target_path": "packages/apps/PixelLiveWallpaper",
+    "branch": "ten",
     "remote": "pixel-gitlab"
-  },
-  {
-    "repository": "LineageOS/android_packages_resources_devicesettings",
-    "target_path": "packages/resources/devicesettings",
-    "branch": "lineage-16.0",
-    "remote": "origin"
   }
 ]
