@@ -1,0 +1,10 @@
+# Fingerprint
+ro.hardware.fp.fpc=true
+ro.hardware.fp.goodix=true
+
+# GNSS
+persist.vendor.overlay.izat.optin=rro
+
+# NFC
+ro.hardware.nfc_nci=nqx.default
+ro.se.type=HCE,UICC
