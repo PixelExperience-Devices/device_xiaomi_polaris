@@ -278,10 +278,6 @@ vendor/lib/libkeymasterutils.so
 vendor/firmware/libpn553_rec.so
 vendor/lib/libpn553_fw.so
 
-# QDCM calibration data
-vendor/etc/qdcm_calib_data_ebbg_fhd_video_dsi_panel.xml
-vendor/etc/qdcm_calib_data_jdi_fhd_video_dsi_panel.xml
-
 # Secure element
 vendor/bin/hw/vendor.qti.secure_element@1.0-service
 vendor/etc/init/vendor.qti.secure_element@1.0-service.rc
