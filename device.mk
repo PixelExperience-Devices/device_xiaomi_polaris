@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product-if-exists, vendor/xiaomi/polaris/polaris-vendor.mk)
 
 # Firmware
-$(call inherit-product, vendor/xiaomi/firmware/polaris/firmware.mk)
+$(call inherit-product, vendor/xiaomi-firmware/polaris/firmware.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2160
