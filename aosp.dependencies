@@ -16,6 +16,12 @@
     "remote": "pixel-gitlab"
   },
   {
+    "repository": "vendor_xiaomi_polaris",
+    "target_path": "vendor/xiaomi/polaris",
+    "branch": "ten",
+    "remote": "pixel-devices-bitbucket"
+  },
+  {
     "repository": "jjpprrrr/prebuilts_clang_host_linux-x86",
     "target_path": "prebuilts/clang/host/linux-x86-master",
     "branch": "master",
