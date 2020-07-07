@@ -22,8 +22,8 @@
     "remote": "pixel-devices-bitbucket"
   },
   {
-    "repository": "jjpprrrr/prebuilts_clang_host_linux-x86",
-    "target_path": "prebuilts/clang/host/linux-x86-master",
+    "repository": "kdrag0n/proton-clang",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-proton",
     "branch": "master",
     "remote": "github"
   },
