@@ -19,7 +19,7 @@
     "repository": "vendor_xiaomi_polaris",
     "target_path": "vendor/xiaomi/polaris",
     "branch": "ten",
-    "remote": "pixel-devices-bitbucket"
+    "remote": "pixel-devices-blobs"
   },
   {
     "repository": "kdrag0n/proton-clang",
