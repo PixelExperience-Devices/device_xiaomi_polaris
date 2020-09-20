@@ -30,34 +30,34 @@
          The brightness values must be between 0 and 255 and be non-decreasing.
          This must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>27</item>
-        <item>39</item>
-        <item>55</item>
-        <item>78</item>
-        <item>107</item>
-        <item>123</item>
-        <item>139</item>
-        <item>156</item>
-        <item>170</item>
-        <item>171</item>
-        <item>171</item>
-        <item>171</item>
-        <item>185</item>
-        <item>185</item>
-        <item>185</item>
-        <item>188</item>
-        <item>190</item>
-        <item>193</item>
-        <item>195</item>
-        <item>199</item>
-        <item>204</item>
-        <item>215</item>
-        <item>223</item>
-        <item>225</item>
-        <item>228</item>
-        <item>238</item>
-        <item>243</item>
-        <item>252</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>8</item>
+        <item>15</item>
+        <item>20</item>
+        <item>26</item>
+        <item>35</item>
+        <item>45</item>
+        <item>46</item>
+        <item>46</item>
+        <item>46</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>64</item>
+        <item>66</item>
+        <item>70</item>
+        <item>73</item>
+        <item>80</item>
+        <item>88</item>
+        <item>110</item>
+        <item>130</item>
+        <item>135</item>
+        <item>145</item>
+        <item>180</item>
+        <item>200</item>
+        <item>240</item>
         <item>255</item>
     </integer-array>
 
@@ -131,60 +131,6 @@
         <item>255</item>
     </integer-array>
 
-    <!-- Array of ambient lux threshold values. This is used for determining hysteresis constraint
-         values by calculating the index to use for lookup and then setting the constraint value
-         to the corresponding value of the array. The new brightening hysteresis constraint value
-         is the n-th element of config_ambientBrighteningThresholds, and the new darkening
-         hysteresis constraint value is the n-th element of config_ambientDarkeningThresholds.
-         The (zero-based) index is calculated as follows: (MAX is the largest index of the array)
-         condition                       calculated index
-         value < level[0]                0
-         level[n] <= value < level[n+1]  n+1
-         level[MAX] <= value             MAX+1 -->
-    <array name="config_ambientThresholdLevels">
-        <item>2</item>
-        <item>10</item>
-        <item>30</item>
-        <item>100</item>
-        <item>800</item>
-        <item>2000</item>
-        <item>4000</item>
-    </array>
-
-    <!-- Array of hysteresis constraint values for brightening, represented as tenths of a
-         percent. The length of this array is assumed to be one greater than
-         config_ambientThresholdLevels. The brightening threshold is calculated as
-         lux * (1.0f + CONSTRAINT_VALUE). When the current lux is higher than this threshold,
-         the screen brightness is recalculated. See the config_ambientThresholdLevels
-         description for how the constraint value is chosen. -->
-    <array name="config_ambientBrighteningThresholds">
-        <item>5</item>
-        <item>5</item>
-        <item>10</item>
-        <item>30</item>
-        <item>100</item>
-        <item>400</item>
-        <item>600</item>
-        <item>1000</item>
-    </array>
-
-    <!-- Array of hysteresis constraint values for darkening, represented as tenths of a
-         percent. The length of this array is assumed to be one greater than
-         config_ambientThresholdLevels. The darkening threshold is calculated as
-         lux * (1.0f - CONSTRAINT_VALUE). When the current lux is lower than this threshold,
-         the screen brightness is recalculated. See the config_ambientThresholdLevels
-         description for how the constraint value is chosen. -->
-    <array name="config_ambientDarkeningThresholds">
-        <item>800</item>
-        <item>800</item>
-        <item>500</item>
-        <item>500</item>
-        <item>500</item>
-        <item>500</item>
-        <item>500</item>
-        <item>500</item>
-    </array>
-
     <!-- Array of lux values to define the minimum brightness curve, which guarantees that any
          brightness curve that dips below it is rejected by the system.
          This prevents auto-brightness from setting the screen so dark as to prevent the user from
@@ -245,8 +191,8 @@
          when adapting to brighter or darker environments.  This parameter controls how quickly
          brightness changes occur in response to an observed change in light level that exceeds the
          hysteresis threshold. -->
-    <integer name="config_autoBrightnessBrighteningLightDebounce">1000</integer>
-    <integer name="config_autoBrightnessDarkeningLightDebounce">1000</integer>
+    <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
+    <integer name="config_autoBrightnessDarkeningLightDebounce">6000</integer>
 
     <!-- Initial light sensor event rate in milliseconds for automatic brightness control. This is
          used for obtaining the first light sample when the device stops dozing.
@@ -275,12 +221,12 @@
     <!-- Screen brightness used to dim the screen when the user activity
          timeout expires.  May be less than the minimum allowed brightness setting
          that can be set by the user. -->
-    <integer name="config_screenBrightnessDim">11</integer>
+    <integer name="config_screenBrightnessDim">1</integer>
 
     <!-- Screen brightness used to dim the screen while dozing in a very low power state.
          May be less than the minimum allowed brightness setting
          that can be set by the user. -->
-    <integer name="config_screenBrightnessDoze">114</integer>
+    <integer name="config_screenBrightnessDoze">17</integer>
 
     <!-- Default screen brightness for VR setting. -->
     <integer name="config_screenBrightnessForVrSettingDefault">86</integer>
