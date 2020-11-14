@@ -17,6 +17,7 @@
 # HISTORY
 #    2020/06/19 : Script creation
 #    2020/09/29 : Updated script to handle added and deleted blobs
+#    2020/11/14 : Adapted for polaris
 #
 #==============================================================================
 #
@@ -28,7 +29,7 @@ set -e
 MY_DIR="${PWD}"
 
 VENDOR_DIR="${MY_DIR}"/../../../vendor/xiaomi
-DEVICE=sdm845-common
+DEVICE=polaris
 DIR_PREFIX="proprietary/"
 
 cd "${VENDOR_DIR}/${DEVICE}"
