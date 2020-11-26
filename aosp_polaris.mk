@@ -11,6 +11,7 @@ TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_USES_AOSP_RECOVERY := true
 
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
