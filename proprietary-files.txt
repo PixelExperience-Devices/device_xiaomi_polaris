@@ -211,6 +211,7 @@ vendor/lib/libjnihelper.so|ef2c1ecf3a0e02125d78af8a16aea074d4337034
 vendor/lib/liblbs_core.so|2613ef36e87e18a474f87cdfcd635dc939b52814
 vendor/lib/libloc_api_v02.so|6140e0665ebacbe91edfbbfe397d332afff72b2f
 vendor/lib/libloc_core.so|c9e4830d825bebe808853c17ad1039b28e6111c1
+vendor/lib/libloc_socket.so|adc05c5471ea7d37c0290830ccb991c7f2875bb2
 vendor/lib/liblocation_api.so|f563185d8c6e82cb46f54bbbf8133f22c2733b4a
 vendor/lib/liblocationservice.so|fa96a4cafc540bbb2fbfd8a72056f0ff1e09024b
 vendor/lib/liblocationservice_glue.so|048185fed29502483b7754a73b37bdce968ec882
@@ -233,6 +234,8 @@ vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so|205438f107138df8d3c831b62b23bb6bdbe2
 vendor/lib64/libaoa.so|548073afa1ce13cb9d9b252dd933e91d835f02d8
 vendor/lib64/libbatching.so|eafd89f91d275c9946a66f0f322ea4c0fa1cc5d0
 vendor/lib64/libcacertclient.so|90281ef665d6a66ad7aa0806d97c20866fe1a83d
+vendor/lib64/libcdfw.so|cfd91b5f028f9ab050f15f265f60f52cca7e42ad
+vendor/lib64/libcdfw_remote_api.so|2939e767c15fd965322d6e11045fa3fb851b29d4
 vendor/lib64/libdataitems.so|f13cb93394d8aae1eef85c4730b5c8f9ace092a9
 vendor/lib64/libgdtap.so|510075724d368816c89a5f9e76b2529484e03d36
 vendor/lib64/libgeofencing.so|a6fffe98ddc82de53cf353c4f3fca602702a8330
@@ -245,6 +248,7 @@ vendor/lib64/libjnihelper.so|fb8690fbb5b8fbb97ded1bd8d4f87285ec74cf41
 vendor/lib64/liblbs_core.so|d9aff7749ab717d0aa1bc77ae886f3a16c438b41
 vendor/lib64/libloc_api_v02.so|fa4be5b879f21aae9d65a4b16ab2c6326d894ed8
 vendor/lib64/libloc_core.so|107da3079c22d9505d3737033bab1e22c3005f53
+vendor/lib64/libloc_socket.so|ec77c6a51bf7dbf179ef6232913c311c4b2a95e1
 vendor/lib64/liblocation_api.so|fe3a227e511bfd52a6c52efae64ac32cfc492669
 vendor/lib64/liblocationservice.so|58d16c5b145399cd3069ba7d556e3688f8f43d66
 vendor/lib64/liblocationservice_glue.so|d08f9e61fc5f731b224692f434cf43a4aa2b6eb8
