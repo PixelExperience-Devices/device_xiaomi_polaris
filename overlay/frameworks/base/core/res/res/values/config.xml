@@ -112,25 +112,6 @@
         <item>4000</item>
     </integer-array>
 
-    <integer-array name="config_manualBrightnessRemapIn">
-        <item>1</item>
-        <item>15</item>
-        <item>30</item>
-        <item>60</item>
-        <item>128</item>
-        <item>192</item>
-        <item>255</item>
-    </integer-array>
-    <integer-array name="config_manualBrightnessRemapOut">
-        <item>1</item>
-        <item>2</item>
-        <item>8</item>
-        <item>20</item>
-        <item>60</item>
-        <item>120</item>
-        <item>255</item>
-    </integer-array>
-
     <!-- Array of ambient lux threshold values. This is used for determining hysteresis constraint
          values by calculating the index to use for lookup and then setting the constraint value
          to the corresponding value of the array. The new brightening hysteresis constraint value
