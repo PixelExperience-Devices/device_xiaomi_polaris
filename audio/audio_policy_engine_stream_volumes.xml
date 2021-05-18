@@ -90,7 +90,7 @@ volume index from 0 to 100.
     <volumeGroup>
         <name>music</name>
         <indexMin>0</indexMin>
-        <indexMax>15</indexMax>
+        <indexMax>25</indexMax>
         <volume deviceCategory="DEVICE_CATEGORY_HEADSET">
              <point>1,-7150</point>
              <point>26,-4500</point>
