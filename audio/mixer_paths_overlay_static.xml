@@ -522,4 +522,14 @@
         <ctl name="AUDIO_REF_EC_UL1 MUX" value="QUAT_MI2S_TX" />
     </path>
 
+    <path name="audio-record">
+        <ctl name="MultiMedia1 Mixer SLIM_0_TX" value="1" />
+        <ctl name="DEC7 Volume" value="106"/>
+    </path>
+
+    <path name="audio-record-voip">
+        <ctl name="MultiMedia10 Mixer SLIM_0_TX" value="1" />
+        <ctl name="DEC7 Volume" value="106"/>
+    </path>
+
 </mixer>
