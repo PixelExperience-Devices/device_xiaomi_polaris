@@ -34,6 +34,14 @@ vendor/lib64/libbtnv.so
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib/libbtnv.so
 
+# CACert - from OnePlus6 - RKQ1.201217.002/2106301530
+-vendor/app/CACertService/CACertService.apk|6219aa05aa3de128abe538c8b7755e5565ca3d97
+vendor/etc/cacert_location.pem
+vendor/lib64/libcacertclient.so|69ae73b9be13507ff39398ac5813ad709b8b7c32
+vendor/lib64/vendor.qti.hardware.cacert@1.0.so|1633c31212d1ea9338b79ebfc2476f83424f36ee
+vendor/lib/libcacertclient.so|cf5f80245d2b857f6992573b61a2a87f8596319d
+vendor/lib/vendor.qti.hardware.cacert@1.0.so|a3d244d49686ee087330dd3e4ec8fcec1b853b07
+
 # Camera
 vendor/etc/camera/age_gender_bg
 vendor/etc/camera/beauty_ui9_intelligent_params.config
@@ -180,7 +188,6 @@ vendor/lib64/libgf_hal.so
 vendor/lib64/vendor.goodix.hardware.fingerprintextension@1.0.so
 
 # GNSS
--vendor/app/CACertService/CACertService.apk
 vendor/bin/hw/android.hardware.gnss@2.0-service-qti
 vendor/bin/loc_launcher
 vendor/bin/lowi-server
@@ -192,13 +199,11 @@ vendor/bin/xtwifi-inet-agent
 vendor/etc/init/android.hardware.gnss@2.0-service-qti.rc
 -vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml
 -vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml
-vendor/etc/cacert_location.pem
 vendor/etc/xtra_root_cert.pem
 vendor/lib64/hw/android.hardware.gnss@2.0-impl-qti.so
 vendor/lib64/hw/vendor.qti.gnss@3.0-impl.so
 vendor/lib64/libaoa.so
 vendor/lib64/libbatching.so
-vendor/lib64/libcacertclient.so
 vendor/lib64/libdataitems.so
 vendor/lib64/libgeofencing.so
 vendor/lib64/libgdtap.so
@@ -227,12 +232,10 @@ vendor/lib64/vendor.qti.gnss@2.0.so
 vendor/lib64/vendor.qti.gnss@2.1.so
 vendor/lib64/vendor.qti.gnss@3.0.so
 vendor/lib64/vendor.qti.gnss@3.0-service.so
-vendor/lib64/vendor.qti.hardware.cacert@1.0.so
 vendor/lib/hw/android.hardware.gnss@2.0-impl-qti.so
 vendor/lib/hw/vendor.qti.gnss@3.0-impl.so
 vendor/lib/libaoa.so
 vendor/lib/libbatching.so
-vendor/lib/libcacertclient.so
 vendor/lib/libdataitems.so
 vendor/lib/libgeofencing.so
 vendor/lib/libgdtap.so
@@ -260,7 +263,6 @@ vendor/lib/vendor.qti.gnss@2.0.so
 vendor/lib/vendor.qti.gnss@2.1.so
 vendor/lib/vendor.qti.gnss@3.0.so
 vendor/lib/vendor.qti.gnss@3.0-service.so
-vendor/lib/vendor.qti.hardware.cacert@1.0.so
 
 # HotwordEnrollment
 -product/priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk|1cbc6ae6490cfc6e16619773809b9afcc9998f91
