@@ -241,9 +241,6 @@
     <!-- Slow brightness animation ramp rate in float. -->
     <item name="config_brightnessRampRateSlowFloat" format="float" type="dimen">0.025</item>
 
-    <!-- Fast brightness animation ramp rate in float. -->
-    <item name="config_brightnessRampRateFastFloat" format="float" type="dimen">0.03</item>
-
     <!-- Minimum allowable screen brightness to use in a very dark room.
          This value sets the floor for the darkest possible auto-brightness
          adjustment.  It is expected to be somewhat less than the first entry in
