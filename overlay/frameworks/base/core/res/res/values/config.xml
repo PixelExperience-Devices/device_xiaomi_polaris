@@ -366,7 +366,7 @@
          app, they can be remapped here. The format is
          "oldname:newname", one per entry. -->
     <string-array name="config_displayModeMappings" translatable="false">
-        <item>00default:standard</item>
+        <item>hal_native:standard</item>
         <item>sRGB_native:srgb</item>
         <item>sRGB_d65:reading</item>
         <item>srgb_d65:reading</item>
