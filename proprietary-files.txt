@@ -1,4 +1,4 @@
-# Device proprietary files - from polaris' MIUI package V12.0.3.0.QDGCNXM China stable version
+# Device proprietary files - from polaris' MIUI package V12.5.1.0.QDGCNXM China stable version
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
