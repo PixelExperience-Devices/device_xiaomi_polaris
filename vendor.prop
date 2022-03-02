@@ -7,3 +7,6 @@ persist.vendor.overlay.izat.optin=rro
 # NFC
 ro.hardware.nfc_nci=nqx.default
 ro.se.type=HCE,UICC
+
+# USB
+vendor.usb.product_string=Xiaomi Mi MIX 2S
